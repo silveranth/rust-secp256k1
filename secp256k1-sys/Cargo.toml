@@ -20,7 +20,7 @@ all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
 [build-dependencies]
-cc = "1.0.28"
+cc = "1.0.83"
 
 [dev-dependencies]
 libc = "0.2"
