@@ -11,6 +11,7 @@
 extern int rustsecp256k1_v0_9_0_ecdsa_signature_parse_compact(
         const rustsecp256k1_v0_9_0_context *ctx,
         rustsecp256k1_v0_9_0_ecdsa_signature *sig, const unsigned char *input64);
+
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
